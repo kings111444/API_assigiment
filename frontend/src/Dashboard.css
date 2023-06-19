@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #F5D3B7;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #F5D3B7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #fc3a3a;
+  }
+  
+  .main {
+    flex: 1;
+    margin-top: 80px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.dashboard-button {
+    display: block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #333;
+  }
+  
+  .dashboard-button.add-cat {
+    background-color: #000000;
+  }
+  
+  .dashboard-button.edit-cat-data {
+    background-color: #000000;
+  }
+  
+  .dashboard-button.delete-cat-data {
+    background-color: #000000;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #F5D3B7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #999;
+  }
